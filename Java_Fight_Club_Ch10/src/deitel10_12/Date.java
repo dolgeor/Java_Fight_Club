@@ -36,7 +36,9 @@ public class Date
       System.out.printf(
          "Date object constructor for date %s%n", this);
    } 
-   
+   public int getMonth() {
+	   return month;
+   }
    // return a String of the form month/day/year
    public String toString()
    { 
