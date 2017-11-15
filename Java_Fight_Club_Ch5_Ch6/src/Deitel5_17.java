@@ -8,7 +8,7 @@ public class Deitel5_17 {
 		int sales[] = new int[5];
 		int key;
 		do {
-			System.out.print("Enter number of product [1,5] or -1 to stop:");
+			System.out.print("Enter number of product [0,4] or -1 to stop:");
 			key = input.nextInt();
 			switch (key) {
 			case 0:
